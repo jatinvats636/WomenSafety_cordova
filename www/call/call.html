@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable= no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Call Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/solid.min.css">
+    <link rel="stylesheet" href="./call.css">
+    <script charset="utf-8" src="./call.js"></script>
+</head>
+
+<body>
+    <!-- <audio id="myAudio">
+        <source src="./op_tune.mp3" type="audio/mpeg">
+    </audio> -->
+    <div id="blink">
+        <p>Incoming Call....</p>
+    </div>
+    <div id="call_image">
+        <img src="./user.png">
+    </div>
+    <div onclick="pause_audio(); call_accept()" id="accept">
+        <i class="fas fa-phone"></i>
+    </div>
+    <div onclick="pause_audio(); call_reject()" id="reject">
+        <i id="accept_i" class="fas fa-phone"></i>
+    </div>
+
+</body>
+
+</html>
