@@ -1,0 +1,245 @@
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: rgb(0, 0, 0);
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: rgb(0, 0, 0);
+  margin-bottom: 60px;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus {
+  outline: none;
+}
+::-webkit-input-placeholder {
+  color: #dedfdf;
+}
+::-moz-placeholder {
+  color: #dedfdf;
+}
+:-moz-placeholder {
+  color: #dedfdf;
+}
+::-ms-input-placeholder {
+  color: #dedfdf;
+}
+
+#wrapper,
+label,
+#arrow {
+  -webkit-transition: all 0.5s cubic-bezier(0.6, 0, 0.4, 1);
+  transition: all 0.5s cubic-bezier(0.6, 0, 0.4, 1);
+}
+
+#wrapper {
+  overflow: hidden;
+}
+
+/* signin */
+#signin:checked ~ #wrapper {
+  height: 178px;
+}
+#signin:checked ~ #wrapper #arrow {
+  left: 32px;
+}
+#signin:checked ~ button#sIn {
+  display: block;
+}
+
+/* signup */
+#signup:checked ~ #wrapper {
+  height: 178px;
+}
+#signup:checked ~ #wrapper #arrow {
+  left: 137px;
+}
+#signup:checked ~ button#sUp {
+  display: block;
+}
+
+/* reset */
+#reset:checked ~ #wrapper {
+  height: 90px;
+}
+#reset:checked ~ #wrapper #arrow {
+  left: 260px;
+}
+#reset:checked ~ button#rPass {
+  display: block;
+}
+
+div#form {
+  width: 300px;
+  margin-top: 10px;
+  margin: -100px -150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 800;
+  opacity: 0.5;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+label:hover {
+  -webkit-transition: all 0.3s cubic-bezier(0.6, 0, 0.4, 1);
+  transition: all 0.3s cubic-bezier(0.6, 0, 0.4, 1);
+  opacity: 1;
+}
+label[for="signin"] {
+  margin-right: 20px;
+}
+label[for="reset"] {
+  float: right;
+}
+input[type="radio"]:checked + label {
+  opacity: 1;
+}
+
+input[type="text"],
+input[type="password"] {
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 27px;
+  font-family: "Raleway", sans-serif;
+  height: 72px;
+  width: 99.5%;
+  margin-bottom: 10px;
+  opacity: 1;
+  text-indent: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#form button {
+  background: #079bcf;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 27px;
+  height: 72px;
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s cubic-bezier(0.6, 0, 0.4, 1);
+  transition: all 0.3s cubic-bezier(0.6, 0, 0.4, 1);
+}
+
+#form button:active {
+  background: #007ba5;
+}
+
+#arrow {
+  height: 0;
+  width: 0;
+  border-bottom: 10px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: relative;
+  left: 32px;
+}
+
+.login-div {
+  width: 70%;
+  margin: 0px auto;
+  margin-top: 50px;
+  padding: 20px;
+  display: none;
+}
+
+.login-div img {
+  margin: 0px auto;
+  width: 50%;
+  display: block;
+}
+
+.user-div {
+  display: none;
+}
+
+div.icon {
+  position: relative;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 12px;
+  width: 80%;
+  height: 12vh;
+  color: aliceblue;
+  border: 1px solid #363636;
+}
+
+div.icon img {
+  float: left;
+  margin: 16px 0px 0px 16px;
+  width: 20%;
+}
+
+div.icon p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  margin: 27px 0px;
+  float: right;
+  right: 19px;
+  font-size: 35px;
+  text-shadow: 0px 0px 5px 5px #000000;
+}
+
+div#fcall {
+  margin-top: 30px;
+  background-color: rgb(83, 180, 75);
+}
+div#siren {
+  background-color: rgb(64, 80, 223);
+}
+div#map {
+  background-color: rgb(190, 57, 84);
+}
+div#loc {
+  background-color: rgb(173, 192, 66);
+}
+div#sos {
+  background-color: rgb(51, 179, 179);
+}
+
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  max-height: 30px;
+}
+
+#sOut {
+  position: relative;
+  margin-top: 10px;
+  width: 8%;
+  float: left;
+  left: 20px;
+}

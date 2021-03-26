@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #000000;
+}
+
+#cross {
+  position: absolute;
+  width: 100%;
+}
+
+#cross img {
+  width: 9%;
+  margin: 20px 0px 0px 10px;
+}
+
+.siren {
+  position: absolute;
+  width: 100%;
+  margin-top: 280px;
+  text-align: center;
+}
+.siren img {
+  width: 45%;
+  /* animation: flashing 0.8s linear infinite; */
+  border-radius: 15px;
+  animation: none;
+}
+
+@keyframes flashing {
+  0%,
+  100% {
+    background-color: rgba(75, 72, 255, 0.6);
+    box-shadow: 30px 0px 200px 150px rgba(75, 72, 255, 0.6);
+  }
+  50% {
+    background-color: rgba(252, 48, 48, 0.4);
+    box-shadow: -30px 0px 200px 150px rgba(252, 48, 48, 0.4);
+  }
+}

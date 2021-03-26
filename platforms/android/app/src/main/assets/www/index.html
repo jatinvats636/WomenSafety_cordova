@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <script type="text/javascript" src="cordova.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Women Safety</title>
+</head>
+
+<body>
+    <div class="login-div" id="login_div">
+        <img onclick="window.location.reload();" src="./img/lifesaver.png">
+        <div id="form">
+            <input checked id="signin" name='action' type='radio' value='signin'>
+            <label for='signin'>Sign in</label>
+            <input id='signup' name='action' type='radio' value='signup'>
+            <label for='signup'>Sign up</label>
+            <input id='reset' name='action' type='radio' value='reset'>
+            <label for='reset'>Reset</label>
+
+            <div id='wrapper'>
+                <div id='arrow'></div>
+                <input id="email_field" placeholder='Email' type='text'>
+                <input id="password_field" placeholder='Password' type='password'>
+            </div>
+
+            <button id="sIn" onclick="SignIn()">Sign in</button>
+            <button id="sUp" onclick="SignUp()">Sign up</button>
+            <button id="vOTP" onclick="VerifyOTP()">Verify</button>
+            <button id="rPass" onclick="ResetPass()">Reset Password</button>
+        </div>
+    </div>
+
+    <div class="user-div" id="user_div">
+        <div class="icon" id="fcall" onclick="fcall()">
+            <img src="./img/phone-call.png">
+            <p>fake call</p>
+        </div>
+        <div class="icon" id="siren" onclick="siren()">
+            <img src="./img/siren1.png">
+            <p>siren</p>
+        </div>
+        <div class="icon" id="map" onclick="map()">
+            <img src="./img/map.png">
+            <p>map</p>
+        </div>
+        <div class="icon" id="loc" onclick="loc()">
+            <img src="./img/location.png">
+            <p>location</p>
+        </div>
+        <div class="icon" id="sos" onclick="sos()">
+            <img src="./img/sos.png">
+            <p>sos</p>
+        </div>
+        <footer>
+            <img id="sOut" src="./img/log-out.png" onclick="SignOut()"></img>
+        </footer>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyAuuxsVWdVEMB0Dfj5SUTDlKICJD4G2fZ0",
+            authDomain: "two-do-lists.firebaseapp.com",
+            databaseURL: "https://two-do-lists.firebaseio.com",
+            projectId: "two-do-lists",
+            storageBucket: "two-do-lists.appspot.com",
+            messagingSenderId: "967140685667",
+            appId: "1:967140685667:web:8cbb16b678bc0cdbed4556",
+            measurementId: "G-WEG056VVPY"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+    </script>
+    <script charset="utf-8" src="./js/index.js"></script>
+</body>
+
+</html>

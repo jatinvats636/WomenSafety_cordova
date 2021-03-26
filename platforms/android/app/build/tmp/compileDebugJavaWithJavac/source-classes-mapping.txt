@@ -1,0 +1,15 @@
+org/apache/cordova/whitelist/WhitelistPlugin.java
+ org.apache.cordova.whitelist.WhitelistPlugin
+ org.apache.cordova.whitelist.WhitelistPlugin$1
+ org.apache.cordova.whitelist.WhitelistPlugin$CustomConfigXmlParser
+org/apache/cordova/geolocation/Geolocation.java
+ org.apache.cordova.geolocation.Geolocation
+com/womensafety/app/MainActivity.java
+ com.womensafety.app.MainActivity
+com/womensafety/app/BuildConfig.java
+ com.womensafety.app.BuildConfig
+com/rjfun/cordova/sms/SMSPlugin.java
+ com.rjfun.cordova.sms.SMSPlugin
+ com.rjfun.cordova.sms.SMSPlugin$1
+ com.rjfun.cordova.sms.SMSPlugin$2
+ com.rjfun.cordova.sms.SMSPlugin$3

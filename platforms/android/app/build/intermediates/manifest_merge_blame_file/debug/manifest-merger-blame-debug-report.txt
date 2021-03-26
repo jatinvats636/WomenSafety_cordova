@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.womensafety.app"
+4    android:hardwareAccelerated="true"
+5    android:versionCode="10000"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+13        android:anyDensity="true"
+13-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+14        android:largeScreens="true"
+14-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+15        android:normalScreens="true"
+15-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+16        android:resizeable="true"
+16-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+17        android:smallScreens="true"
+17-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+18        android:xlargeScreens="true" />
+18-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+20-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:13:5-81
+21-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:13:22-78
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:14:5-79
+22-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:14:22-76
+23
+24    <uses-feature
+24-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:15:5-90
+25        android:name="android.hardware.location.gps"
+25-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:15:19-63
+26        android:required="true" />
+26-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:15:64-87
+27    <uses-feature
+27-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:16:5-88
+28        android:name="android.hardware.telephony"
+28-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:16:19-60
+29        android:required="false" />
+29-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:16:61-85
+30
+31    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+31-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:17:5-75
+31-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:17:22-72
+32    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+32-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:18:5-70
+32-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:18:22-67
+33    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+33-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:19:5-75
+33-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:19:22-72
+34    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+34-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:20:5-70
+34-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:20:22-67
+35    <uses-permission android:name="android.permission.READ_SMS" />
+35-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:21:5-67
+35-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:21:22-64
+36    <uses-permission android:name="android.permission.WRITE_SMS" />
+36-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:22:5-68
+36-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:22:22-65
+37    <uses-permission android:name="android.permission.SEND_SMS" />
+37-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:23:5-67
+37-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:23:22-64
+38
+39    <application
+39-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:5:5-12:19
+40        android:debuggable="true"
+41        android:hardwareAccelerated="true"
+41-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+42        android:icon="@mipmap/ic_launcher"
+42-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:5:53-87
+43        android:label="@string/app_name"
+43-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:5:88-120
+44        android:supportsRtl="true" >
+44-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:5:121-147
+45        <activity
+45-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+46            android:name="com.womensafety.app.MainActivity"
+46-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:6:205-232
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
+47-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:6:19-135
+48            android:label="@string/activity_name"
+48-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:6:136-173
+49            android:launchMode="singleTop"
+49-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:6:174-204
+50            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+50-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:6:233-295
+51            android:windowSoftInputMode="adjustResize" >
+51-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:6:296-338
+52            <intent-filter android:label="@string/launcher_name" >
+52-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+52-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+53                <action android:name="android.intent.action.MAIN" />
+53-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+53-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+55-->E:\Learning\Cordova\WomenSafety\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+56            </intent-filter>
+57        </activity>
+58    </application>
+59
+60</manifest>
