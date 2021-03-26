@@ -1,0 +1,22 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.womensafety.app"
+    },
+    "cordova-plugin-geolocation": {
+      "GPS_REQUIRED": "true",
+      "PACKAGE_NAME": "com.womensafety.app"
+    },
+    "cordova-plugin-sms": {
+      "PACKAGE_NAME": "com.womensafety.app"
+    }
+  },
+  "dependent_plugins": {}
+}
