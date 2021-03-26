@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>geolocation</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+  <link rel="stylesheet" href="./location.css">
+  <script charset="utf-8" src="./location.js"></script>
+</head>
+
+<body>
+  <div id="cross">
+    <img onclick="cross()" src="./crossed.png">
+  </div>
+  <div onclick="getPosition()" id="getPosition">CURRENT POSITION</div>
+  <div onclick="watchPosition()" id="watchPosition">TRACK POSITION</div>
+  <div id="logs"><b><u>POSITION</u></b></div>
+</body>
+
+</html>
